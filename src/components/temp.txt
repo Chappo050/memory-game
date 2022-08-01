@@ -1,0 +1,3 @@
+      {ShuffleArray(numberArray).map((item, i)=>{
+        return <DisplaySingleCard key={i} animals={animalArray} number={numberArray[item]}/>
+      })}
